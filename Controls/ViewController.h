@@ -17,11 +17,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 
--(IBAction)actionRotation:(id)sender;
--(IBAction)actionScale:(id)sender;
--(IBAction)actionTranslation:(id)sender;
--(IBAction)actionSpeed:(id)sender;
-
+-(IBAction)actionRotation:(UISwitch*)sender;
+-(IBAction)actionScale:(UISwitch*)sender;
+-(IBAction)actionTranslation:(UISwitch*)sender;
+-(IBAction)actionSpeed:(UISlider*)sender;
+-(IBAction)actionImageControl:(UISegmentedControl*)sender;
 
 @end
 
